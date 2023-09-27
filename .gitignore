@@ -1,0 +1,8 @@
+node_modules/
+.vscode/
+cover.jpg
+gulpfile.js
+README.txt
+.vscode/settings.json
+.prettierrc.json
+snnipets.txt
