@@ -1,8 +1,11 @@
 node_modules/
 .vscode/
-cover.jpg
+src/
+config/
 gulpfile.js
-README.txt
-.vscode/settings.json
 .prettierrc.json
+package-lock.json
+package.json
+cover.jpg
+README.txt
 snnipets.txt
