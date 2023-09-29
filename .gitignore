@@ -7,5 +7,7 @@ gulpfile.js
 package-lock.json
 package.json
 cover.jpg
+.hintrc
+.DS_Store
 README.txt
 snnipets.txt
