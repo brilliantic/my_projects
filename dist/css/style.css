@@ -346,6 +346,10 @@ h6 {
   line-height: 2;
 }
 
+.text:not(:last-child) {
+  margin-bottom: 0.9375rem;
+}
+
 /*
         <div class="title">
           <div class="title__label">my works</div>
@@ -389,6 +393,7 @@ h6 {
   top: 0;
   left: 0;
   z-index: 100;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .header__container {
@@ -486,6 +491,8 @@ h6 {
           align-items: center;
   -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
 }
 
 .main-section__title:not(:last-child) {
@@ -529,7 +536,7 @@ h6 {
 
 .decor-main-section__box::after {
   z-index: 2;
-  background: #eae6fe url("../img/main/lines.svg") top right no-repeat;
+  background: #eae6fe url("../img/main/lines.svg") top right/58% no-repeat;
 }
 
 .decor-main-section__image {
